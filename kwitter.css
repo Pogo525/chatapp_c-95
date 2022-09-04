@@ -1,0 +1,77 @@
+#index_page {
+background-image:url("https://cdn.dribbble.com/users/1162077/screenshots/4318436/media/1e17490dd92ca27c4a6274ab7bff5b11.png?compress=1&resize=400x300");
+background-repeat: repeat;
+background-size: 2000px;
+}
+#main_div{
+   
+    border-radius: 10; 
+    width: 700px;
+   
+ margin: 250px;
+ background-color:rgb(220, 193, 243);   
+ border-radius: 10px;
+ border-width: 20px;
+ border-style: groove;
+ border-color:rgb(58, 149, 235);
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 250px;
+    margin-bottom: -200px;
+    color:azure;
+}
+h2 {
+    color:rgb(13, 76, 193);
+    }
+
+#tick {
+    width: 50px;
+    height: 50px;
+}
+
+#login-button {
+color: rgb(0, 0, 0);
+background-color: rgb(235, 212, 97);
+height: 40px;
+width: 70px;
+}
+
+#kwitter_pagebody {
+background-image:url("https://cdn.dribbble.com/users/2479503/screenshots/6384602/chat_background.png");
+background-repeat: no-repeat;
+background-size: 2000px;
+padding-left:200px;
+}
+
+#kwitter_roomdiv {
+ border-radius: 10;
+ margin-right:170px;
+ margin-top:250px;
+ background-color:rgb(220, 193, 243);   
+ border-radius: 10px;
+ border-width: 20px;
+ border-style: groove;
+ border-color:rgb(58, 149, 235);
+}
+#logout{
+    margin-right:-1500px;
+    margin-top: 100px;
+    margin-bottom:-200px;
+    color:brown;
+    background-color: rgb(210, 193, 231);
+    height:50px;
+    width: 100px;
+}
+
+
+#output
+{
+	padding: 10px; 
+	width:80%;
+	background: rgba(255,255,255,0.8);
+	border-radius: 15px;
+}

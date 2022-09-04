@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>KWITTER</title>
+
+        <link rel="stylesheet" type="text/css" href="kwitter.css">
+        <script src="kwitter.js" src="kwitter.css"></script>
+    </head>
+    <body id="kwitter_pagebody">
+        <center>
+            <button id="logout" class="glyphicon glyphicon-log-out btn btn-link" onclick="logout()">Logout</button><span></span>
+            <div id="kwitter_roomdiv" class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+            <h2>Welcome to Kwitter</h2>
+            <h3 id="user_welcomename" class="color_white"></h3>
+            
+           
+            <div class="form-group input_div_room_page">
+                <label>#Add Room:</label>
+                <input type="text" id="room_name" class="form-control" placeholder="#Room Name" style="color: tomato; font-weight: bold;">
+            </div>
+            <br>
+            <button class="btn btn-link" onclick="addroom()" style="background-color: rgb(146, 46, 218); border-radius: 20px; color: yellow;">#Add Room</button>
+    <br>
+    <br>
+            <h3 class="color_white">#TRENDINGROOMS</h3>
+            <br>
+            <br>
+        <div id="output"></div>
+
+        </center>
+        <script src="kwitter_page.js"></script>    
+            </div>
+            </center></body>
